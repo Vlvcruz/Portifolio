@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Alkatra", system-ui;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #000;
+    font-family: "Alkatra", system-ui;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar-logo {
+    height: 50px;
+    border-radius: 220px;
+    margin-right: auto;
+}
+
+.navbar-logo:hover {
+cursor:default
+}
+
+header:hover{
+    cursor: default;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Alkatra", system-ui;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.projet {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaço entre cards */
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* centraliza os cards */
+    gap: 20px; /* espaço entre eles */
+    flex-wrap: wrap; /* quebra linha se precisar */
+    padding: 20px;
+}
+
+.card {
+    background-color: #f3f3f3b6;
+    width: 800px;
+    height: auto;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    gap: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#card{
+    background-color: #f3f3f3b6;
+    width: 90%;
+    height: auto;
+    padding: 21px;
+    border-radius: 12px;
+    display: flex;
+    gap: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#card img {
+    width: 16%;
+    height: 300px;
+    border-radius: 58px;
+    object-fit: scale-down;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: justify;
+    width: 76%;
+}
+
+.card img {
+    width: 45%;
+    height: 275px;
+    border-radius: 75px;
+    object-fit: scale-down;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 220px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.nbar{
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.nbar.active {
+    text-decoration: underline;
+}
+
+p{
+    padding-bottom: 75px;
+}
+
+.tst{
+    padding-bottom: 10px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+#txt_ap{
+    padding: 28px 400px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: #f3f3f3b6;
+}
+
+.img_card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content p {
+    text-align: justify;
+    line-height: 1.6;
+    padding-left: 10px;
+    font-size: 18px; /* tamanho confortável */
+    height: auto; /* evita cortar texto */
+    overflow: visible;
+}
+
+#card_prin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+    padding-bottom: 15px;
+    background-color: #9c9c9cb6;
+}
+
+.btn-footer i {
+    font-size: 18px; /* tamanho do ícone */
+}
+
+#footer p{
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #9c9c9cb6;
+    
+}
